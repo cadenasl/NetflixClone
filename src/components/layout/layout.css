@@ -1,0 +1,24 @@
+.header {
+  position: sticky;
+  flex: 10%;
+  background-color: black;
+}
+
+.main {
+  background-color: black;
+  flex: 85%;
+  overflow-y: scroll;
+  position: relative;
+}
+.footer {
+  background-color: red;
+
+  text-align: center;
+  flex: 5%;
+}
+
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

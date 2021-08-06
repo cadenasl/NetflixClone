@@ -1,0 +1,100 @@
+.header {
+  background-color: black;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+.netflix-logo {
+  width: 100%;
+  height: 100%;
+}
+.modalButton {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.linkContainer {
+  display: flex;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.linkItems {
+  list-style: none;
+
+  padding-left: 5%;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  white-space: nowrap;
+}
+.linkItems a {
+  text-decoration: none;
+  color: white;
+}
+.parentUl {
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+  margin-top: 8%;
+}
+
+.childrenLi {
+  list-style: none;
+  color: white;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-bottom: 0;
+  margin: 0;
+}
+.childrenLi a {
+  text-decoration: none;
+  color: white;
+}
+.avatarLogo {
+  width: 20px;
+  height: 20px;
+}
+.childrenLiLogo {
+  list-style: none;
+  flex-direction: row;
+}
+
+@media (max-width: 601px) {
+  .netflix-logo {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    left: 50%;
+    top: 10%;
+  }
+  .linkContainer {
+    display: none;
+    align-items: center;
+  }
+  .parentUl {
+    display: none;
+    align-items: center;
+    margin-top: 8%;
+  }
+  .buttontoOpen {
+    position: relative;
+    bottom: 15%;
+    left: 10%;
+  }
+}
+
+@media (min-width: 601px) {
+  .buttontoOpen {
+    display: none;
+  }
+}

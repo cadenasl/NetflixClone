@@ -1,0 +1,57 @@
+.myList {
+  width: 100%;
+  height: 100%;
+}
+.listPage {
+  width: 100%;
+  height: 100%;
+}
+.ListRow {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  height: auto;
+}
+
+.ListRowItem {
+  width: 15%;
+  height: auto;
+  padding: 0.1%;
+}
+.ListRowItem:hover {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+
+  height: fit-content;
+  transform: scale(1.2);
+}
+
+.hide {
+  display: none;
+}
+
+.Img:hover + .hide {
+  display: inline-flex;
+  border: 1px solid transparent;
+  background-color: white;
+  opacity: 0.3;
+  height: auto;
+}
+.movieImg {
+  width: 100%;
+  height: auto;
+}
+.listHeader {
+  color: white;
+  padding: 0.5%;
+}
+
+.hide:hover {
+  display: block;
+
+  border: 1px solid transparent;
+  background-color: white;
+  opacity: 0.3;
+}

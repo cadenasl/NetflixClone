@@ -1,0 +1,33 @@
+.modal {
+  background-color: black;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  height: 90vh;
+  width: 40vw;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 15%;
+}
+
+.navItem {
+  padding-bottom: 5%;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: white;
+}
+.netflixLogo {
+  width: 100px;
+  height: 50px;
+}
+@media (min-width: 601px) {
+  .modal {
+    display: none;
+  }
+}
