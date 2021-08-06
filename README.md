@@ -1,1 +1,1 @@
-This is a netflix clone that uses the tdmb api to obtain data in json format to update the most popular movies.It uses react hooks such as useState,useEffect and useContext. it was build to be mobile friendly.
+This is a netflix clone that uses the tdmb api to obtain data in json format to update the most popular movies. It uses react hooks such as useState,useEffect and useContext. It was build to be mobile friendly.
