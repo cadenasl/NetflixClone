@@ -15,6 +15,7 @@ const Header = (props) => {
           <div className="modalButton"></div>
           <div className="modalButton"></div>
         </button>
+
         <img className="netflix-logo" src={netflixLogo} alt="netflixLogo" />
       </div>
       <div>
