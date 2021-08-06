@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import NetflixCarousel from "../netflixCarousel/netflixCarousel";
 import VideoFrame from "../videoIframe/Videoframe";
 import classes from "./homePage.module.css";
-import batmanBegins from "../../assets/images/batman-begins-movie.jpg";
-import queensGambit from "../../assets/images/queens-gambit.jpg";
 
 //api key https://api.themoviedb.org/3/movie/497698?api_key=f566985b633d0d19752aee362398deaa&language=en-US;
 

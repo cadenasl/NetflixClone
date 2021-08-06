@@ -1,5 +1,4 @@
 import classes from "./button.module.css";
-import { Button } from "react-bootstrap";
 
 const CustomButton = (props) => {
   return (

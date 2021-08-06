@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../header/header";
 import SideBar from "../UI Elements/SideBar";
-import Footer from "../footer/footer";
+
 import "./layout.css";
 
 const Layout = (props) => {

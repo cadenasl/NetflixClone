@@ -1,13 +1,11 @@
 import YouTube from "react-youtube";
 import OverLay from "../UI Elements/Overlay";
 
-import { useState, useRef, useEffect } from "react";
+import { useRef } from "react";
 import classes from "./videoFrame.module.css";
 
 const VideoFrame = () => {
-  const [videoUrl, setVideoUrl] = useState(
-    "https://www.youtube.com/watch?v=hIR8Ar-Z4hw"
-  );
+  const videoUrl = "https://www.youtube.com/watch?v=hIR8Ar-Z4hw";
 
   const video = useRef(null);
 
@@ -19,7 +17,6 @@ const VideoFrame = () => {
   const startVideo = () => {
     video.current.internalPlayer.playVideo();
 
-    console.log("hello");
     // access to player in all event handlers via event.target
   };
 

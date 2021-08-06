@@ -67,7 +67,7 @@ const NetflixCarousel = (props) => {
       }
     }
     fetchMovies();
-  }, []);
+  }, [tdmb]);
 
   let slider;
   if (!isLoading) {

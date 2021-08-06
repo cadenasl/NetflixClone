@@ -1,7 +1,7 @@
 import classes from "./MyList.module.css";
 import ListContext from "../context/context";
-import { useContext, Fragment } from "react";
-import queensGambit from "../../assets/images/queens-gambit.jpg";
+import { useContext } from "react";
+
 import Button from "../UI Elements/button";
 
 const MyList = () => {
